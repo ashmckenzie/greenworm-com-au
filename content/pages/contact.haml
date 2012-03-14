@@ -1,0 +1,7 @@
+/ Heading: Contact
+
+%h1 Contact
+
+%form{ :action => '/contact/submit', :method => 'POST'}
+  %input{ :type => 'text', :name => 'name' }
+  %input{ :type => 'submit', :name => 'submit', :value => 'Submit' }
