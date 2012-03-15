@@ -1,5 +1,6 @@
-PATH
-  remote: /Users/ash/Personal/external/nesta
+GIT
+  remote: git@github.com:ashmckenzie/nesta.git
+  revision: 0e41fac2c219364071bde9e948903f79d9545c00
   specs:
     nesta (0.9.13)
       RedCloth (~> 4.2)
@@ -46,3 +47,4 @@ DEPENDENCIES
   nesta!
   pry
   pry-nav
+  shotgun
