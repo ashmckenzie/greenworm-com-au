@@ -1,8 +1,8 @@
+require 'bundler/setup'
+Bundler.require(:default)
+
 require 'nesta/env'
 require 'nesta/app'
-require 'bundler/setup'
-
-Bundler.require(:default)
 
 use Rack::ConditionalGet
 use Rack::ETag
