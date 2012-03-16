@@ -1,16 +1,3 @@
-GIT
-  remote: git://github.com/ashmckenzie/nesta.git
-  revision: fdcc869052a4fb1843c6954d46d21835892343fb
-  specs:
-    nesta (0.9.13)
-      RedCloth (~> 4.2)
-      haml (~> 3.1)
-      rack (~> 1.1)
-      rdiscount (~> 1.6)
-      sass (~> 3.1)
-      shotgun (>= 0.8)
-      sinatra (~> 1.3)
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -19,6 +6,14 @@ GEM
     coderay (1.0.5)
     haml (3.1.4)
     method_source (0.7.1)
+    nesta (0.9.13)
+      RedCloth (~> 4.2)
+      haml (~> 3.1)
+      rack (~> 1.1)
+      rdiscount (~> 1.6)
+      sass (~> 3.1)
+      shotgun (>= 0.8)
+      sinatra (~> 1.3)
     pry (0.9.8.4)
       coderay (~> 1.0.5)
       method_source (~> 0.7.1)
@@ -44,7 +39,7 @@ PLATFORMS
 
 DEPENDENCIES
   awesome_print
-  nesta!
+  nesta (= 0.9.13)
   pry
   pry-nav
   shotgun

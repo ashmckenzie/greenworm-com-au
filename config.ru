@@ -1,15 +1,20 @@
 require 'bundler/setup'
 Bundler.require(:default)
 
-require 'nesta/env'
-require 'nesta/app'
-require 'sinatra'
-
-set :logging, :true
-
 use Rack::ConditionalGet
 use Rack::ETag
 
+require 'nesta/env'
 Nesta::Env.root = ::File.expand_path('.', ::File.dirname(__FILE__))
 
+require 'nesta/config'
+module Nesta
+  class Config
+    def self.yaml_path
+      File.expand_path('config/nesta.yml', Nesta::App.root)
+    end
+  end
+end
+
+require 'nesta/app'
 run Nesta::App

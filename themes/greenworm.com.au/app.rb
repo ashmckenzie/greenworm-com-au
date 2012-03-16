@@ -13,8 +13,6 @@ module Nesta
   end
 
   class App
-    use Rack::Static, :urls => ["/greenworm.com.au"], :root => "themes/greenworm.com.au/public"
-
     helpers do
       def page_id page
         page.heading.downcase.strip.gsub(/[^\w\s]/, '').gsub(/\s+/, '-')
