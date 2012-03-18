@@ -4,10 +4,10 @@ author:
   name: Ash McKenzie
   uri: http://greenworm.com.au
   email: ash@greenworm.com.au
-theme: greenworm.com.au
+theme: greenworm
 cache: false
 content: content
-development:
-  cache: true    
-  content: /home/apps/greenworm/current/content
-  google_analytics_code: "UA-8842201-1"
+# production:
+#   cache: true    
+#   content: /home/apps/greenworm/current/content
+#   google_analytics_code: "UA-8842201-1"
