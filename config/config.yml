@@ -1,3 +1,5 @@
+app:
+  name: 'greenworm'
 deploy:
   repo: 'git@github.com:ashmckenzie/greenworm-com-au.git'
   ssh_host: 'the-rebellion.net'
@@ -5,7 +7,6 @@ deploy:
   ssh_key: "File.join(ENV['HOME'], '.ssh', 'ashmckenzie_deployment_2048_rsa')"
   deploy_to: '/home/apps/greenworm'
   nginx:
-    config_name: 'greenworm'
+    app_name: 'greenworm'
     server_name: 'greenworm.the-rebellion.net'
     root: '/home/apps/greenworm/current/public'
-    log_name: 'greenworm'
