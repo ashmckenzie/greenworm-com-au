@@ -65,6 +65,6 @@ namespace :deploy do
 end
 
 def nginx_site_config config
-  template = ERB.new(File.read('config/nginx-greenworm.erb'))
+  template = ERB.new(File.read("config/nginx-#{CONFIG['app']['name']}.erb"))
   template.result(binding)
 end
