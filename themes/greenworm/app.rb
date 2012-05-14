@@ -1,6 +1,8 @@
-require 'pry'
-
 module Nesta
+
+  class App
+    use Rack::Static, :urls => ["/greenworm"], :root => "themes/greenworm/public"
+  end  
 
   class Page
     def title
@@ -11,23 +13,6 @@ module Nesta
       elsif abspath == '/'
         Nesta::Config.title
       end
-    end
-  end
-
-  class App
-
-    use Rack::Static, :urls => ["/greenworm"], :root => "themes/greenworm/public"
-
-    helpers do
-      def page_id page
-        page.heading.downcase.strip.gsub(/[^\w\s]/, '').gsub(/\s+/, '-')
-      end
-    end
-
-    post '/contact/submit' do
-      p params
-      # binding.pry
-      ''
     end
   end
 end
