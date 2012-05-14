@@ -15,12 +15,14 @@ set :scm, :git
 set :deploy_to, "#{CONFIG['deploy']['base']}/#{CONFIG['app']['name']}"
 set :deploy_via, :copy
 set :keep_releases, 3
+set :copy_cache, true
 set :use_sudo, false
 set :normalize_asset_timestamps, false
 
 set :user, CONFIG['deploy']['ssh_user']
 ssh_options[:port] = CONFIG['deploy']['ssh_port']
 ssh_options[:keys] = eval(CONFIG['deploy']['ssh_key'])
+ssh_options[:forward_agent] = true
 
 role :app, CONFIG['deploy']['ssh_host']
 
