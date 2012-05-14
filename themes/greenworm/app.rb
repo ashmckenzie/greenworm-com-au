@@ -1,3 +1,5 @@
+require 'pry'
+
 module Nesta
 
   class Page
@@ -24,7 +26,8 @@ module Nesta
 
     post '/contact/submit' do
       p params
-      'ignore me for now'
+      # binding.pry
+      ''
     end
   end
 end

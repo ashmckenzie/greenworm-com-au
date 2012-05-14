@@ -1,0 +1,482 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"col",
+				"columns"
+			],
+			[
+				"start",
+				"starting_key"
+			],
+			[
+				"st",
+				"starting_key"
+			],
+			[
+				"most",
+				"most_likely_index"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"selc",
+				"selcolname"
+			],
+			[
+				"pref",
+				"prefPane"
+			],
+			[
+				"babu",
+				"babushka"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config/nginx-greenworm.erb",
+			"settings":
+			{
+				"buffer_size": 514,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/config.yml",
+			"settings":
+			{
+				"buffer_size": 396,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 143,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content/pages/contact.haml",
+			"settings":
+			{
+				"buffer_size": 362,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":",
+				":w - Save"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ash/Projects/instagram-shredder-challenge/Gemfile",
+		"/Users/ash/Projects/instagram-shredder-challenge/shred.py",
+		"/Users/ash/Projects/instagram-shredder-challenge/final.png",
+		"/Users/ash/Projects/instagram-shredder-challenge/final-9.png",
+		"/Users/ash/Projects/instagram-shredder-challenge/tmp/new-8.png",
+		"/Users/ash/Projects/instagram-shredder-challenge/tmp/9,11,15,17,19,14,8,4,12,5,20,18,13,7,16,2,6,1,10.png",
+		"/Users/ash/Projects/instagram-shredder-challenge/play.rb",
+		"/Users/ash/Projects/instagram-shredder-challenge/TokyoPanoramaShredded.png",
+		"/Users/ash/Projects/instagram-shredder-challenge/tmp/new-1.png",
+		"/Users/ash/Library/Application Support/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Users/ash/Projects/chef/cookbooks/postfix/metadata.rb",
+		"/Users/ash/Projects/chef/cookbooks/postfix/templates/default/main.cf.erb",
+		"/Users/ash/Projects/chef/cookbooks/postfix/attributes/default.rb",
+		"/Users/ash/Projects/chef/cookbooks/postfix/recipes/default.rb",
+		"/Users/ash/Projects/plex-music-bb/lib/plex_music.rb",
+		"/Users/ash/Projects/plex-music-bb/lib/init.rb",
+		"/Users/ash/Projects/plex-music-bb/config.ru",
+		"/Users/ash/Projects/plex-music-bb/Gemfile",
+		"/Users/ash/Projects/plex-music-bb/tmp/all_artists.xml",
+		"/Users/ash/Projects/plex-music-bb/public/albums.json",
+		"/Users/ash/Projects/plex-music-bb/tmp/hilltop-state_of_the_art.xml",
+		"/Users/ash/Projects/plex-music-bb/lib/plex_music/song.rb",
+		"/Users/ash/Projects/plex-music-bb/lib/server.rb",
+		"/Users/ash/Projects/plex-music-bb/Rakefile",
+		"/Users/ash/Projects/plex-music-bb/Isolate",
+		"/Users/ash/Projects/plex-music-bb/lib/Gemfile",
+		"/Users/ash/Projects/plex-music/require 'proc:wait3'",
+		"/Users/ash/Projects/plex-music/experiment.rb",
+		"/Users/ash/Projects/plex-music/Gemfile",
+		"/private/tmp/rbcurse/examples/testtable.rb",
+		"/private/tmp/rbcurse/examples/testree.rb",
+		"/Users/ash/Projects/plex-music/scripts/stream.rb",
+		"/Users/ash/Projects/plex-music/lib/plex_music/artist.rb",
+		"/Users/ash/Projects/plex-music/lib/plex_music/plex_music.rb",
+		"/Users/ash/Projects/plex-music/stream.rb",
+		"/Users/ash/Projects/plex-music/lib/plex_music/song.rb",
+		"/usr/local/babushka/deps/templates/app.rb",
+		"/usr/local/babushka/lib/babushka/dep_context.rb",
+		"/Users/ash/.babushka/deps/app_bundles.rb",
+		"/Users/ash/Projects/babuska/bootstrap.sh"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			":(\\w+) =>",
+			"diff",
+			"200",
+			"32",
+			"potential",
+			"diff",
+			"@img",
+			"CHUNK_SIZE",
+			"CHUNK",
+			"31",
+			"ap",
+			"start",
+			"most_likely_index",
+			"”",
+			"“",
+			":right",
+			":left",
+			"inj",
+			"IMAGE",
+			"32",
+			"31",
+			"to_rgb",
+			"diff ",
+			"samp",
+			"fqdn",
+			"myhostname",
+			"\"",
+			" ",
+			"configure_flags",
+			".search",
+			"Hilltoop",
+			"Hilltop",
+			"init",
+			"X",
+			"SPACE",
+			"bind",
+			"ellow",
+			"handle_key",
+			"keylabel",
+			"buttrow",
+			"tm",
+			"b_insert",
+			"ew",
+			"colnames",
+			"debug",
+			"DEBU",
+			"$log",
+			"debug",
+			"$log",
+			"data",
+			"puts",
+			"volum",
+			"ashm",
+			"hosk",
+			"hosting",
+			"ast",
+			"epear",
+			"tap",
+			"Text"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\1:",
+			"the",
+			"chunk_size",
+			"index",
+			"\"",
+			":r",
+			":l",
+			"'",
+			"column_names"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config/nginx-greenworm.erb",
+					"settings":
+					{
+						"buffer_size": 514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/config.yml",
+					"settings":
+					{
+						"buffer_size": 396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								322,
+								322
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								50
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "content/pages/contact.haml",
+					"settings":
+					{
+						"buffer_size": 362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								251,
+								251
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"shre",
+				"shred.py"
+			],
+			[
+				"con",
+				"config.ru"
+			],
+			[
+				"alb",
+				"public/albums.json"
+			],
+			[
+				"ini",
+				"lib/init.rb"
+			],
+			[
+				"g",
+				"Gemfile"
+			],
+			[
+				"init",
+				"lib/init.rb"
+			],
+			[
+				"conf",
+				"config.ru"
+			],
+			[
+				"app",
+				"lib/application.rb"
+			],
+			[
+				"art",
+				"lib/plex_music/artist.rb"
+			],
+			[
+				"song",
+				"lib/plex_music/song.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"ra",
+				"Rakefile"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"rea",
+				"README.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true
+}
