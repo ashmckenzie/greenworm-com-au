@@ -47,6 +47,10 @@ GEM
       tilt (~> 1.3, >= 1.3.3)
     slop (2.4.4)
     tilt (1.3.3)
+    toadhopper (2.0)
+    toadhopper-sinatra (2.0)
+      sinatra
+      toadhopper (~> 2.0)
     treetop (1.4.10)
       polyglot
       polyglot (>= 0.3.1)
@@ -63,3 +67,4 @@ DEPENDENCIES
   pry-nav
   rake
   shotgun
+  toadhopper-sinatra
