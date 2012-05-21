@@ -28,4 +28,8 @@ require 'sinatra'
 require 'sinatra/toadhopper'
 require 'nesta/app'
 
+use Rack::Rewrite do
+  r301 '/contact', '/'
+end
+
 run Nesta::App
