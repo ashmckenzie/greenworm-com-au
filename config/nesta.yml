@@ -7,7 +7,7 @@ author:
 theme: greenworm
 cache: false
 content: content
-# production:
-#   cache: true    
-#   content: /home/apps/greenworm/current/content
-#   google_analytics_code: "UA-8842201-1"
+production:
+  cache: true    
+  content: /home/apps/greenworm/current/content
+  google_analytics_code: "UA-8842201-1"
