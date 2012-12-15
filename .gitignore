@@ -1,3 +1,5 @@
 .sass-cache
+config/config.yml
+config/newrelic.yml
 greenworm.sublime*
 .DS_Store
