@@ -1,5 +1,7 @@
 include Sinatra::Toadhopper::Helpers
 
+Dir[File.join('config', 'initialisers', '*.rb')].each { |f| require "./#{f}" }
+
 CONFIG = YAML.load_file('./config/config.yml')
 
 module Nesta
@@ -7,7 +9,7 @@ module Nesta
   class App
     use Rack::Static, :urls => [ "/greenworm" ], :root => "themes/greenworm/public"
 
-    set :airbrake, 
+    set :airbrake,
       :api_key => CONFIG['errbit']['api_key'],
       :notify_host => CONFIG['errbit']['host'],
       :filters => /password/
@@ -18,8 +20,8 @@ module Nesta
       set_common_variables
       post_error_to_airbrake!
       haml(:error)
-    end unless Nesta::App.development? 
-  end  
+    end unless Nesta::App.development?
+  end
 
   class Page
     def title

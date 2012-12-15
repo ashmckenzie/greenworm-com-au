@@ -11,6 +11,7 @@ end
 
 use Rack::ConditionalGet
 use Rack::ETag
+use Stethoscope
 
 require 'nesta/env'
 

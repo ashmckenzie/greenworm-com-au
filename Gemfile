@@ -6,6 +6,7 @@ gem 'toadhopper-sinatra'
 gem 'mail'
 gem 'rack-rewrite', '~> 1.2.1'
 gem 'newrelic_rpm'
+gem 'stethoscope', :git => 'https://ashmckenzie@github.com/ashmckenzie/stethoscope.git'
 
 group :development do
   gem 'thin'
