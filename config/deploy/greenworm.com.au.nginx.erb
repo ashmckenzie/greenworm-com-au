@@ -3,7 +3,7 @@ server {
   server_name <%= server_name %>;
   root <%= root %>;
 
-  passenger_enabled on;
+  #passenger_enabled on;
 
   access_log  /var/log/nginx/<%= app_name %>.access.log combined;
   error_log  /var/log/nginx/<%= app_name %>.error.log;
