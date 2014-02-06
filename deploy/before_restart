@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+oldrev, newrev = ARGV
+
+def run(cmd)
+  exit($?.exitstatus) unless system "umask 002 && #{cmd}"
+end
+
+run "bundle install --deployment --without 'development test'"
+run "bundle exec rake greenworm.com.au:generate_nginx_config | sudo tee /etc/nginx/sites-available/greenworm.com.au.conf"
+run "sudo ln -nfs /etc/nginx/sites-available/greenworm.com.au.conf /etc/nginx/sites-enabled/"

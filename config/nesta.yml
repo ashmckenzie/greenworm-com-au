@@ -8,6 +8,6 @@ theme: greenworm
 cache: false
 content: content
 production:
-  cache: true    
-  content: /home/apps/greenworm/current/content
+  cache: true
+  content: /home/deploy/apps/greenworm.com.au/content
   google_analytics_code: "UA-8842201-1"
