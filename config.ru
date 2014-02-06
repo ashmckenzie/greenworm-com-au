@@ -1,11 +1,11 @@
 require 'bundler/setup'
 Bundler.require(:default, :development)
 
-if ENV['RACK_ENV'] == 'production'
-  log = File.new(File.expand_path("../log/app.log", __FILE__), "a")
-  STDOUT.reopen(log)
-  STDERR.reopen(log)
-end
+# if ENV['RACK_ENV'] == 'production'
+#   log = File.new(File.expand_path("../log/app.log", __FILE__), "a")
+#   STDOUT.reopen(log)
+#   STDERR.reopen(log)
+# end
 
 use Rack::ConditionalGet
 use Rack::ETag
